@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FBEEFF"
+    android:backgroundTint="#FBEEFF"
+    tools:context=".Notes.AddNoteFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="173dp"
+        android:layout_height="52dp"
+        android:text="@string/add_note1"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_color"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="338dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:text="@string/title1"
+        android:textSize="22sp"
+        android:textColor="@color/text_color"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="186dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="340dp"
+        android:layout_height="195dp"
+        android:ems="10"
+        android:text="@string/message1"
+        android:textSize="22sp"
+        android:textColor="@color/text_color"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="278dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:background="@drawable/bottonbackground"
+        android:text="@string/add1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

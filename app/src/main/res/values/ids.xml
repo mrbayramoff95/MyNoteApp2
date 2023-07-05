@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_container" type="id" />
+    <item name="go_to_login" type="id">login</item>
+    <item name="container" type="id">container</item>
+    <item name="noteTitleTextView" type="id" />
+    <item name="noteContentTextView" type="id" />
+    <item name="recyclerView" type="id" />
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchItem"
+        android:enabled="true"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/addNoteItem"
+        android:enabled="true"
+        android:icon="@drawable/message_icon"
+        android:title="@string/add_note" />
+
+    <item
+        android:id="@+id/profileItem"
+        android:enabled="true"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/allNotesItem"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="@string/home" />
+</menu>
