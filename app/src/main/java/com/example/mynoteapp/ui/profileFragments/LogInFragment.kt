@@ -1,4 +1,4 @@
-package com.example.mynoteapp.Adapter
+package com.example.mynoteapp.ui.profileFragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.mynoteapp.R
 
-class searchFragment : Fragment() {
+
+class LogInFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +16,8 @@ class searchFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_search, container, false)
+        return inflater.inflate(R.layout.fragment_log_in, container, false)
     }
+
 
 }

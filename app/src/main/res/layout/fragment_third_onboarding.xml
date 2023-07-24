@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bubbles3"
-    tools:context=".UI.ThirdOnboardingFragment">
+    tools:context=".ui.ThirdOnboardingFragment">
 
     <ImageView
         android:id="@+id/imageView"

@@ -1,4 +1,4 @@
-package com.example.mynoteapp.ProfileFragments
+package com.example.mynoteapp.ui
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.mynoteapp.R
 
 
-class ProfileFragment : Fragment() {
+class ThirdOnboardingFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,7 +16,7 @@ class ProfileFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        return inflater.inflate(R.layout.fragment_third_onboarding, container, false)
     }
 
 }

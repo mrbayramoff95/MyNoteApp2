@@ -6,4 +6,6 @@
     <item name="noteTitleTextView" type="id" />
     <item name="noteContentTextView" type="id" />
     <item name="recyclerView" type="id" />
+    <item name="contentTextView" type="id" />
+    <item name="titleTextView" type="id" />
 </resources>

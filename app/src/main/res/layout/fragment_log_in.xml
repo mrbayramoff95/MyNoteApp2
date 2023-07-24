@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragments.LogInFragment"
+    tools:context=".ui.profileFragments.LogInFragment"
     android:background="@drawable/bubbles1">
 
     <ImageView

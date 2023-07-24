@@ -52,4 +52,5 @@
     <string name="_64_notes">64 notes</string>
     <string name="logout1">Logout</string>
     <string name="home">home</string>
+    <string name="note_not_saved" />
 </resources>
