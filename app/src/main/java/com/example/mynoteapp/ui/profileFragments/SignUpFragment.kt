@@ -1,10 +1,9 @@
-package com.example.mynoteapp.ProfileFragments
+package com.example.mynoteapp.ui.profileFragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.mynoteapp.R
 import com.example.mynoteapp.databinding.FragmentSignUpBinding
 
 

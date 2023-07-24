@@ -2,7 +2,7 @@ package com.example.mynoteapp
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.example.mynoteapp.UI.FirstOnboardingFragment
+import com.example.mynoteapp.ui.FirstOnboardingFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
